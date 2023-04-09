@@ -14,7 +14,7 @@ public class Calculator {
                        
         } else {
             System.out.println("format matematicheskoy operacii ne udovletvoryaet zadaniyu - "
-                    + "dva operanda i odin operator (+, -, /, *)");
+                    + "dva operanda (chisla ot 1 do 10) i odin operator (+, -, /, *)");
         }
         
     }
