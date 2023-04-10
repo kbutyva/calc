@@ -6,10 +6,11 @@ public class Calculator {
         
         Validator v = new Validator();
         Resulting r = new Resulting();
+		System.out.println("Input: ");
         String s = sc.nextLine();
         
         if (v.validate(s)) {
-            
+            System.out.println("Output: ");
            r.resulting(s);
                        
         } else {
