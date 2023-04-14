@@ -13,7 +13,7 @@ public class Resulting {
             break;
             case "*": System.out.println(a*b);
             break;
-            case "/": System.out.println((float) a/b);
+            case "/": System.out.println(a/b);
             break;
                
         }
